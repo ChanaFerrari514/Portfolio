@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlyne Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="maboite">
+
+        <h1> CHARLYNE<span style="color:#0ABAB5">/</span>FERRARI </h1>  
+        <h2> ABOUT ME </h2><br>
+     
+        <div class="box">
+            <div class="aboutMe">
+        
+                <p class="text" style="font-size: 17px;"> My name is Charlyne Ferrari <br>
+                I am originally from Montreal, Canada, I speak English, French, and Spanish. I have a background in <span style="color:#0ABAB5">HTML</span> ,<span style="color:#0ABAB5">CSS</span>, and <span style="color:#0ABAB5">JavaScript</span>. 
+                I moved to Spain a year ago to pursue my dream of becoming a full-time web developer and have been working hard to achieve my goals.
+                Currently, I am enrolled in an intensive program at <span style="color:#0ABAB5"><a href="https://www.thebridge.tech/">Bridge Bootcamp</a></span> to expand my knowledge and gain more experience in the 
+                field. My ultimate goal is to become an expert full-stack web developer and contribute to the development of cutting-edge web 
+                applications.
+                Thank you for taking the time to learn more about me. If you have any questions or would like to discuss potential opportunities, 
+                please don't hesitate to contact me.</p>
+            </div>  
+            <div class="header-links">
+                <ul>
+                    <li data-menuanchor="thirdPage"><a href="https://github.com/ChanaFerrari514">GIT HUB</a></li>
+                    <li data-menuanchor="secondPage"><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li data-menuanchor="fourthpage"><a href="https://www.linkedin.com/feed/">LINKEDIN</a></li>
+                </ul>
+            </div>      
+        </div>
+    </div>      
+       
+
+    <!-- CHAT BAR BLOCK -->
+
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with TocToc!
+            <i id="chat-icon" style="color: aliceblue;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icon">
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

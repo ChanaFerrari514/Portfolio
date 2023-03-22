@@ -1,0 +1,77 @@
+/*2e Page Portfolio*/
+
+body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+}
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 600;
+  }
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 30px;
+}  
+p {
+    padding-left: 10px;
+    font-size: 18px;
+}
+.container {
+    width: 100%; 
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(pexels-cup-of-couple-6177607.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat:no-repeat;
+} 
+.header-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 600;
+}
+
+.header-links li {
+    color:aliceblue;
+    display: inline;
+    float: left;
+    font-size: medium;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.header-links a {
+    color: #0ABAB5;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+.folder-links{
+    position:fixed;
+    width: 100%;
+    z-index: 500:
+}
+
+.folder-links li {
+    color:aliceblue;
+    display: inline;
+    float: left;
+    font-size: medium;
+    padding: 15px;
+}
+
+.folder-links a {
+    color: aliceblue;
+    -webkit-transition: all 0.2s ease-in;
+  }
+  
+  .folder-links a:hover {
+    color: #0ABAB5 !important;
+  }
